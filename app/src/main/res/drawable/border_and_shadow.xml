@@ -1,0 +1,25 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Tạo border -->
+    <item>
+        <shape
+            android:shape="rectangle">
+            <solid android:color="#3F51B5" /> <!-- Màu nền -->
+            <stroke
+                android:width="2dp"
+                android:color="#0B2D47" /> <!-- Màu border -->
+        </shape>
+    </item>
+
+    <!-- Áp dụng hiệu ứng bóng -->
+    <item android:right="1dp" android:left="1dp" android:top="1dp" android:bottom="1dp">
+        <shape
+            android:shape="rectangle">
+            <solid android:color="#3F51B5" /> <!-- Màu nền -->
+            <corners android:radius="2dp" /> <!-- Độ cong của góc -->
+            <stroke
+                android:width="2dp"
+                android:color="#0B2D47" /> <!-- Màu border -->
+            <padding android:bottom="2dp" android:left="2dp" android:right="2dp" android:top="2dp" />
+        </shape>
+    </item>
+</layer-list>
